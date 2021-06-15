@@ -17,6 +17,7 @@ public class Home {
 	public void logout()
 	{
 		driver.findElement(signout).click();
+		System.out.println("Hello akash!");
 	}
 	
 }
